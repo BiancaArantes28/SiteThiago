@@ -1,7 +1,7 @@
-html{
-
-	width: 100%;
-	height: auto;
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 body{
 	/* change img */
@@ -13,7 +13,9 @@ body{
 	width: 100%;
 	height: auto;
 }
-
+header{
+    position: relative;
+}
 .bg-dark{
 	/* change color background: background-color: hexadecimal-color; */
 }
@@ -64,19 +66,22 @@ body{
 	margin-top: 90px;
 	padding-top:10px;
 	padding-bottom: 10px;
-
+    position: relative;
 }
 #projects{
 	background-color: #FFFFFF;
 	margin-top: 30px;
 	padding-top:10px;
 	padding-bottom: 10px;
+    position: relative;
 }
 #about{
 	background-color: #FFFFFF;
 	margin-top: 30px;
 	padding-top:10px;
 	padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: relative;
 }
 .img-projects{
 	cursor: pointer;
@@ -139,10 +144,12 @@ body{
 }
 footer{
 	width: 100%;
+    position: absolute;
 	height: 60px;
 	background-color: #343a40;
 	color: #FFFFFF;
-	margin-top: 30px;
+	bottom: 0;
+    left: 0;
 	padding-top: 18px;
 	text-align: center;
 }
