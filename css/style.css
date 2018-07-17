@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 }
 body{
 	/* change img */
@@ -10,8 +11,6 @@ body{
 	background-position: 30% 45%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
-	height: auto;
 }
 .page-wraper-row{
     height: 100%;
@@ -65,6 +64,7 @@ header{
 }
 
 #shippedtitles{
+	position: relative;
 	background-color: #FFFFFF;
 	margin-top: 90px;
 	padding-top:10px;
@@ -72,6 +72,7 @@ header{
     height: auto;
 }
 #projects{
+	position: relative;
 	background-color: #FFFFFF;
 	margin-top: 30px;
 	padding-top:10px;
@@ -79,15 +80,13 @@ header{
     height: auto;
 }
 #about{
+	position: relative;
 	background-color: #FFFFFF;
 	margin-top: 30px;
 	padding-top:10px;
 	padding-bottom: 10px;
     margin-bottom: 30px;
     height: auto;
-}
-.page-wraper-row{
-	height: auto;
 }
 .img-projects{
 	cursor: pointer;
@@ -148,15 +147,17 @@ header{
 	margin-top: 10px;
 	margin-bottom: 0;
 }
+#tudo{
+	min-height: 100%;
+	position: relative;
+}
 footer{
+	position: relative;
 	width: 100%;
-    float: bottom;
 	height: 60px;
 	background-color: #343a40;
 	color: #FFFFFF;
 	padding-top: 18px;
 	text-align: center;
-	margin: 0 auto;
-    left: 0;
-	bottom: 0;
+	bottom: 0px;
 }
